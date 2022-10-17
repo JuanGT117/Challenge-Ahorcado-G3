@@ -1,0 +1,49 @@
+body{
+    position: relative;
+    width: 1360px;
+    height: 768px;
+    background-color: #E5E5E5;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.botonIniciarJuego{
+    display: flex;
+    position: absolute;
+    background: darkblue;
+    flex-direction: row;
+    align-items: center;
+    font-size: 23px;
+    padding: 0 60px;
+    font-weight: bold;
+    color: #fefefe;
+    width: 20%;
+    height: 10%;
+    border-radius: 6em;
+    left: 50%;
+    top:50%;
+}
+
+.botonInicio{
+    display: none;
+    position: absolute;
+    background: rgb(32, 32, 32);
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    padding: 0 25px;
+    font-weight: bold;
+    color: #fefefe;
+    width: 8%;
+    height: 10%;
+    border-radius: 6em;
+    left: 5%;
+    top: 10%
+     
+}
+
+.canvas{
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px
+  }
